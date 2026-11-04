@@ -43,3 +43,11 @@ Escaneie o QR code com o Expo Go (PC e celular na mesma rede Wi-Fi).
 
 Dados dos animes fornecidos pela API do [AniList](https://anilist.co).
 O Aniguiri não é afiliado ao AniList.
+
+## Observação Importante
+
+Atualmente a aplicação não utiliza nenhum agente, mas mentive no repositório o arquivo `AGENTS.md` e a pasta `.claude/`, que vieram do template da Expo.
+Eles contêm instruções para assistentes de programação com IA (como Claude Code, Cursor ou GitHub Copilot).
+
+Se você for contribuir ou adaptar o projeto usando uma dessas ferramentas, elas leem esses arquivos automaticamente, 
+então os mantive, mas eles não afetam o app nem fazem parte do APK.
