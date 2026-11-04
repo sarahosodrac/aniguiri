@@ -1,56 +1,45 @@
-# Welcome to your Expo app 👋
+# Aniguiri 🍙
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+App Android para organizar animes por temporada e categoria, com agenda de episódios.
 
-## Get started
+## Download
 
-1. Install dependencies
+Baixe o APK mais recente em **[Releases](https://github.com/sarahosodrac/aniguiri/releases/latest)**.
 
-   ```bash
-   npm install
-   ```
+### Como instalar
+1. Baixe o arquivo `.apk` em **Assets**
+2. Abra o arquivo no celular e permita instalar apps desta fonte
+3. Se o Play Protect avisar, toque em **Mais detalhes, Instalar mesmo assim**
 
-2. Start the app
+Para atualizar, basta instalar a versão nova por cima; sua lista é mantida.
 
-   ```bash
-   npx expo start
-   ```
+## Funcionalidades
 
-In the output, you'll find options to open the app in a
+- Busca de animes pelo AniList
+- Listas por temporada (Inverno, Primavera, Verão, Outono)
+- Categorias: Apostas, Chance e Continuação
+- Aba Lançamentos com os episódios da semana
+- Agenda diária com botão "Visto"
+- Detalhes do anime: sinopse, episódios, estúdio, gêneros e nota
+- Contador de episódios assistidos
+- Backup e importação da lista
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tecnologias
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+React Native, Expo, TypeScript e SQLite.
 
-## Get a fresh project
+## Rodando o projeto
 
-When you're ready, run:
+Requer [Node.js](https://nodejs.org) e o app [Expo Go](https://expo.dev/go) no celular.
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+Escaneie o QR code com o Expo Go (PC e celular na mesma rede Wi-Fi).
 
-### Other setup steps
+## Créditos
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Dados dos animes fornecidos pela API do [AniList](https://anilist.co).
+O Aniguiri não é afiliado ao AniList.
